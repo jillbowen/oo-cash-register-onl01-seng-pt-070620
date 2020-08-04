@@ -13,7 +13,7 @@ class CashRegister
     if quantity > 1
       counter = 0
       while counter < quantity
-        @items << items
+        @items << title
         counter += 1
       end
     else
